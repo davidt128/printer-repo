@@ -1,0 +1,5 @@
+@Echo Off
+REM Change "\\path to printer server\Printer_name"
+
+REM Add printer
+rundll32 printui.dll,PrintUIEntry /in /n"\\path to printer server\Printer_name"
